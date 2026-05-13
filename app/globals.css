@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Color Palette */
+@layer base {
+  :root {
+    --bakery-olive: #8A9A5B;
+    --bakery-sage: #A3B18A;
+    --bakery-yellow: #E9C46A;
+    --bakery-gold: #D4A373;
+    --bakery-beige: #EDE0D4;
+    --bakery-cream: #FAF9F6;
+    --bakery-dark: #2F3E2C;
+    --bakery-brown: #5C4B3B;
+    --bakery-red: #BC4749;
+  }
+
+  /* Default text color */
+  body {
+    @apply text-bakery-dark;
+    @apply bg-bakery-cream;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-bakery-dark;
+  }
+}
